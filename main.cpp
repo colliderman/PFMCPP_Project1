@@ -34,89 +34,115 @@ arm.flex();
 arm.rotateCounterClockwise(); //demonstrates CamelCase
 
 /*
- 1)
- Noun:
- action 1:
- action 2:
- action 3:
- */
-
-
-/*
- 2)
- Noun:
- action 1:
- action 2:
- action 3:
- */
+1)
+Noun:     dog
+action 1: the dog eats
+action 2: the dog sleeps
+action 3: the dog chases a car
+*/
+dog.eat();
+dog.sleep();
+dog.chaseCar();
 
 /*
- 3)
- Noun:
- action 1:
- action 2:
- action 3:
- */
-
+2)
+Noun:     menuButton
+action 1: button is pressed
+action 2: button is released
+action 3: button is held
+*/
+menuButton.pressed();
+menuButton.released();
+menuButton.held();
 
 /*
- 4)
- Noun:
- action 1:
- action 2:
- action 3:
- */
+3)
+Noun:     mop
+action 1: the mop cleans
+action 2: the mop is rung out
+action 3: the mop is thrown out
+*/
+mop.clean();
+mop.ringOut();
+mop.throwOut();
+
+/*
+4)
+Noun:     washing machine
+action 1: washing machine cycle is set
+action 2: washing machine is filling
+action 3: washing machine cycle is done
+*/
+washingMachine.setCycle();
+washingMachine.fillWithWater();
+washingMachine.chimeDone();
 
 /*
  5)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:     DAW Transport
+ action 1: transport plays
+ action 2: transport stops
+ action 3: transport loops
  */
-
+transport.play();
+transport.stop();
+transport.loop();
 
 /*
  6)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:     Enemy
+ action 1: enemy attacks
+ action 2: enemy defends
+ action 3: enemy loses health
  */
+ enemy.attack();
+ enemy.defend();
+ enemy.decreaseHealth();
 
 /*
  7)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:     fader
+ action 1: fader gets reset to zero
+ action 2: fader set to follow automation
+ action 3: fader set to vegas mode
  */
-
+fader.jumpToZero();
+fader.followAutomation();
+fader.vegasModeStart();
 
 /*
  8)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:      car
+ action 1:  drives forward
+ action 2:  drives backwards
+ action 3:  parks
  */
+ car.driveForward();
+ car.driveBackwards();
+ car.park();
 
 /*
  9)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:      led
+ action 1:  led turns on
+ action 2:  led blinks slowly
+ action 3:  led blinks quickly
  */
-
+led.on();
+led.flashSlow();
+led.flashFast();
 
 /*
  10)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:      clock
+ action 1:  sets the minutes
+ action 2:  sets the hours
+ action 3:  sets the alarm
  */
+ clock.setMinutes();
+ clock.setHours();
+ clock.setAlarm();
+
 
 
 #endif
@@ -127,3 +153,5 @@ int main()
     std::cout << "good to go" << std::endl;
     return 0;
 }
+
+
